@@ -10,6 +10,7 @@ namespace TechJobs.ViewModels
         // TODO #7.1 - Extract members common to JobFieldsViewModel
         // to BaseViewModel
 
+
         // The search results
         public List<Job> Jobs { get; set; }
 

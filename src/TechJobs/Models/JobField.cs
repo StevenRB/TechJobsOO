@@ -15,7 +15,14 @@
 
         public JobField(string value) : this()
         {
-            Value = value;
+            if (value != "")
+            {
+                Value = value;
+            }
+            else
+            {
+                Value = " ";
+            }
         }
 
         // Provide a basic case-insensitive search

@@ -23,7 +23,7 @@ namespace TechJobs.ViewModels
 
         public JobFieldsViewModel()
         {
-            // Populate the list of all columns
+           // Populate the list of all columns
 
             Columns = new List<JobFieldType>();
 
@@ -31,8 +31,6 @@ namespace TechJobs.ViewModels
             {
                 Columns.Add(enumVal);
             }
-
-
         }
     }
 }
